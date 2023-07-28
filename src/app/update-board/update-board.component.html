@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col">
+        <mat-form-field appearance="fill">
+            <mat-label>Board Name</mat-label>
+            <input matInput [(ngModel)]="boardFields.boardName.model" name="boardName" placeholder="">
+        </mat-form-field>
+    </div>
+    <div class="col">
+        <mat-form-field appearance="fill">
+            <mat-label>Drawing Number</mat-label>
+            <input matInput [(ngModel)]="boardFields.drawNumber.model" name="drawNumber" placeholder="">
+        </mat-form-field>
+    </div>
+    <div class="col">
+        <mat-form-field appearance="fill">
+            <mat-label>Update Rate</mat-label>
+            <input matInput [(ngModel)]="boardFields.updateRate.model" name="updateRate" placeholder="">
+        </mat-form-field>
+    </div>
+    <div class="col">
+        <mat-form-field appearance="fill">
+            <mat-label>Hardware Version</mat-label>
+            <input matInput [(ngModel)]="boardFields.hardware.model" name="hardware" placeholder="" Hardware="">
+        </mat-form-field>
+    </div>
+    <div class="col">
+        <mat-form-field>
+            <mat-label>Comment</mat-label>
+            <textarea matInput [(ngModel)]="boardFields.comment.model" name="Comment" placeholder=""></textarea>
+		</mat-form-field>
+    </div>
+<div class="row">
+    <div class="col">
+        <button class="btn btn-primary" mat-button (click)="saveData()">Save Details</button>
+    </div>
+</div>

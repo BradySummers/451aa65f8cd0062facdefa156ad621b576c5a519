@@ -1,0 +1,16 @@
+@font-face {
+    font-family: navine;
+    src: url(assets/NavineDemo-SemiCondensed.ttf) ;
+}
+html, body { height: 100%; }
+body { 
+    margin: 0;
+    font-family: navine;
+    color: var(--navigator-blue);
+}
+
+:root {
+    --navigator-blue: #041C2C;
+    --runway-grey: #97999B;
+    --skyline-blue: #007398;
+}
